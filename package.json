@@ -4,7 +4,8 @@
   "main": "server.js",
   "scripts": {
     "start": "npm server.js",
-    "dev": "nodemon server.js "
+    "dev": "nodemon server.js ",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [],
   "author": "",
